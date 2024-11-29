@@ -128,14 +128,14 @@ img {
 @media (max-width: 600px){
     .grid{
         grid-template-columns: 1fr 1fr;
-        max-width: 350px;
+        max-width: 250px;
     }
-}
-
-@media (max-width: 600px){
   .grid2{
       grid-template-columns: 1fr 1fr;
-      max-width: 350px;
+      max-width: 250px;
+  }
+  #conteudo{
+      flex-direction: column;
   }
 }
 
@@ -221,13 +221,6 @@ fieldset{
 #button2 {
   background-color:white;
   color: blue;
-}
-
-
-@media (max-width: 600px){
-  #conteudo{
-      flex-direction: column;
-  }
 }
 
 footer {
